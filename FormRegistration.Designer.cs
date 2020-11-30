@@ -42,6 +42,9 @@ namespace MallIS
             this.labelGender = new System.Windows.Forms.Label();
             this.buttonCreateUser = new System.Windows.Forms.Button();
             this.maskedTextBoxPhoneNumber = new System.Windows.Forms.MaskedTextBox();
+            this.ButtonSelectUserPhoto = new System.Windows.Forms.Button();
+            this.PictureBoxUserPhoto = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxUserPhoto)).BeginInit();
             this.SuspendLayout();
             // 
             // LabelForm
@@ -164,11 +167,34 @@ namespace MallIS
             this.maskedTextBoxPhoneNumber.Size = new System.Drawing.Size(154, 20);
             this.maskedTextBoxPhoneNumber.TabIndex = 16;
             // 
+            // ButtonSelectUserPhoto
+            // 
+            this.ButtonSelectUserPhoto.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonSelectUserPhoto.Location = new System.Drawing.Point(842, 282);
+            this.ButtonSelectUserPhoto.Name = "ButtonSelectUserPhoto";
+            this.ButtonSelectUserPhoto.Size = new System.Drawing.Size(130, 30);
+            this.ButtonSelectUserPhoto.TabIndex = 18;
+            this.ButtonSelectUserPhoto.Text = "Выбрать фото";
+            this.ButtonSelectUserPhoto.UseVisualStyleBackColor = true;
+            this.ButtonSelectUserPhoto.Click += new System.EventHandler(this.ButtonSelectUserPhoto_Click);
+            // 
+            // PictureBoxUserPhoto
+            // 
+            this.PictureBoxUserPhoto.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.PictureBoxUserPhoto.Location = new System.Drawing.Point(842, 151);
+            this.PictureBoxUserPhoto.Name = "PictureBoxUserPhoto";
+            this.PictureBoxUserPhoto.Size = new System.Drawing.Size(130, 125);
+            this.PictureBoxUserPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBoxUserPhoto.TabIndex = 17;
+            this.PictureBoxUserPhoto.TabStop = false;
+            // 
             // FormRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.ButtonSelectUserPhoto);
+            this.Controls.Add(this.PictureBoxUserPhoto);
             this.Controls.Add(this.maskedTextBoxPhoneNumber);
             this.Controls.Add(this.buttonCreateUser);
             this.Controls.Add(this.labelGender);
@@ -197,6 +223,9 @@ namespace MallIS
             this.Controls.SetChildIndex(this.labelGender, 0);
             this.Controls.SetChildIndex(this.buttonCreateUser, 0);
             this.Controls.SetChildIndex(this.maskedTextBoxPhoneNumber, 0);
+            this.Controls.SetChildIndex(this.PictureBoxUserPhoto, 0);
+            this.Controls.SetChildIndex(this.ButtonSelectUserPhoto, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxUserPhoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,5 +246,7 @@ namespace MallIS
         private System.Windows.Forms.Label labelGender;
         private System.Windows.Forms.Button buttonCreateUser;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxPhoneNumber;
+        private System.Windows.Forms.Button ButtonSelectUserPhoto;
+        private System.Windows.Forms.PictureBox PictureBoxUserPhoto;
     }
 }

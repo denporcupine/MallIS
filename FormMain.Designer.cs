@@ -30,7 +30,6 @@ namespace MallIS
         private void InitializeComponent()
         {
             this.ButtonAuthorization = new System.Windows.Forms.Button();
-            this.ButtonRegistration = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LabelForm
@@ -50,28 +49,15 @@ namespace MallIS
             this.ButtonAuthorization.UseVisualStyleBackColor = true;
             this.ButtonAuthorization.Click += new System.EventHandler(this.ButtonAuthorization_Click);
             // 
-            // ButtonRegistration
-            // 
-            this.ButtonRegistration.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ButtonRegistration.Location = new System.Drawing.Point(526, 293);
-            this.ButtonRegistration.Name = "ButtonRegistration";
-            this.ButtonRegistration.Size = new System.Drawing.Size(180, 30);
-            this.ButtonRegistration.TabIndex = 3;
-            this.ButtonRegistration.Text = "Зарегистрироваться";
-            this.ButtonRegistration.UseVisualStyleBackColor = true;
-            this.ButtonRegistration.Click += new System.EventHandler(this.ButtonRegistration_Click);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
-            this.Controls.Add(this.ButtonRegistration);
             this.Controls.Add(this.ButtonAuthorization);
             this.Name = "FormMain";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.Controls.SetChildIndex(this.ButtonAuthorization, 0);
-            this.Controls.SetChildIndex(this.ButtonRegistration, 0);
             this.ResumeLayout(false);
 
         }
@@ -79,7 +65,6 @@ namespace MallIS
         #endregion
 
         private System.Windows.Forms.Button ButtonAuthorization;
-        private System.Windows.Forms.Button ButtonRegistration;
     }
 }
 

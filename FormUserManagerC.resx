@@ -139,6 +139,12 @@
   <data name="&gt;&gt;LabelForm.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="ButtonBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="ButtonBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 30</value>
+  </data>
   <data name="&gt;&gt;ButtonBack.Name" xml:space="preserve">
     <value>ButtonBack</value>
   </data>
@@ -150,6 +156,12 @@
   </data>
   <data name="&gt;&gt;ButtonBack.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="ButtonExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 12</value>
+  </data>
+  <data name="ButtonExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 30</value>
   </data>
   <data name="&gt;&gt;ButtonExit.Name" xml:space="preserve">
     <value>ButtonExit</value>
@@ -163,39 +175,6 @@
   <data name="&gt;&gt;ButtonExit.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="mallidDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Mall_id</value>
-  </data>
-  <data name="mallnameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Mall_name</value>
-  </data>
-  <data name="statusDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="pavilionsquantityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Pavilions_quantity</value>
-  </data>
-  <data name="cityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>City</value>
-  </data>
-  <data name="priceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Price</value>
-  </data>
-  <data name="addedvalueratioDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Added_value_ratio</value>
-  </data>
-  <data name="floorsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Floors</value>
-  </data>
-  <data name="photoDataGridViewImageColumn.HeaderText" xml:space="preserve">
-    <value>Photo</value>
-  </data>
-  <data name="pavilionsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Pavilions</value>
-  </data>
-  <data name="rentsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Rents</value>
-  </data>
   <metadata name="mallBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -203,7 +182,7 @@
     <value>12, 87</value>
   </data>
   <data name="dataGridViewMalls.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1160, 271</value>
+    <value>960, 288</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="dataGridViewMalls.TabIndex" type="System.Int32, mscorlib">
@@ -219,10 +198,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridViewMalls.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
+  <metadata name="mallBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="textBoxFilterStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 417</value>
+    <value>155, 388</value>
   </data>
   <data name="textBoxFilterStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 20</value>
@@ -240,10 +222,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxFilterStatus.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="textBoxFilterCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 446</value>
+    <value>155, 414</value>
   </data>
   <data name="textBoxFilterCity.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 20</value>
@@ -261,7 +243,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxFilterCity.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -270,7 +252,7 @@
     <value>Arial, 12pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 419</value>
+    <value>12, 388</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>137, 18</value>
@@ -291,7 +273,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -300,7 +282,7 @@
     <value>Arial, 12pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 446</value>
+    <value>12, 416</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 18</value>
@@ -321,25 +303,170 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonDeleteSelectedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="buttonDeleteSelectedRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 388</value>
+  </data>
+  <data name="buttonDeleteSelectedRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 45</value>
+  </data>
+  <data name="buttonDeleteSelectedRow.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonDeleteSelectedRow.Text" xml:space="preserve">
+    <value>Удалить выбранный ТЦ</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteSelectedRow.Name" xml:space="preserve">
+    <value>buttonDeleteSelectedRow</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteSelectedRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteSelectedRow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteSelectedRow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonShowInterfaceMall.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonShowInterfaceMall.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonShowInterfaceMall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 440</value>
+  </data>
+  <data name="buttonShowInterfaceMall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 30</value>
+  </data>
+  <data name="buttonShowInterfaceMall.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonShowInterfaceMall.Text" xml:space="preserve">
+    <value>Интерфейс ТЦ</value>
+  </data>
+  <data name="&gt;&gt;buttonShowInterfaceMall.Name" xml:space="preserve">
+    <value>buttonShowInterfaceMall</value>
+  </data>
+  <data name="&gt;&gt;buttonShowInterfaceMall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonShowInterfaceMall.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonShowInterfaceMall.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonSortByCity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="buttonSortByCity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSortByCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 389</value>
+  </data>
+  <data name="buttonSortByCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 45</value>
+  </data>
+  <data name="buttonSortByCity.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="buttonSortByCity.Text" xml:space="preserve">
+    <value>Сортировать по городам</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByCity.Name" xml:space="preserve">
+    <value>buttonSortByCity</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByCity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSortByStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="buttonSortByStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSortByStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 389</value>
+  </data>
+  <data name="buttonSortByStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 45</value>
+  </data>
+  <data name="buttonSortByStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonSortByStatus.Text" xml:space="preserve">
+    <value>сортировать по статусам</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByStatus.Name" xml:space="preserve">
+    <value>buttonSortByStatus</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSortByStatus.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="mallnameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Mall_name</value>
+  </data>
+  <data name="statusDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="pavilionsquantityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Pavilions_quantity</value>
+  </data>
+  <data name="cityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="priceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="floorsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Floors</value>
+  </data>
+  <data name="addedvalueratioDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Added_value_ratio</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1184, 561</value>
+    <value>984, 561</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>FormUserManagerC</value>
   </data>
-  <data name="&gt;&gt;mallidDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>mallidDataGridViewTextBoxColumn</value>
+  <data name="&gt;&gt;mallBindingSource.Name" xml:space="preserve">
+    <value>mallBindingSource</value>
   </data>
-  <data name="&gt;&gt;mallidDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;mallBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mallnameDataGridViewTextBoxColumn.Name" xml:space="preserve">
     <value>mallnameDataGridViewTextBoxColumn</value>
@@ -371,41 +498,17 @@
   <data name="&gt;&gt;priceDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;addedvalueratioDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>addedvalueratioDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;addedvalueratioDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;floorsDataGridViewTextBoxColumn.Name" xml:space="preserve">
     <value>floorsDataGridViewTextBoxColumn</value>
   </data>
   <data name="&gt;&gt;floorsDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;photoDataGridViewImageColumn.Name" xml:space="preserve">
-    <value>photoDataGridViewImageColumn</value>
+  <data name="&gt;&gt;addedvalueratioDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>addedvalueratioDataGridViewTextBoxColumn</value>
   </data>
-  <data name="&gt;&gt;photoDataGridViewImageColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pavilionsDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>pavilionsDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;pavilionsDataGridViewTextBoxColumn.Type" xml:space="preserve">
+  <data name="&gt;&gt;addedvalueratioDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rentsDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>rentsDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;rentsDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mallBindingSource.Name" xml:space="preserve">
-    <value>mallBindingSource</value>
-  </data>
-  <data name="&gt;&gt;mallBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormUserManagerC</value>

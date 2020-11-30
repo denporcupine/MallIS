@@ -14,8 +14,6 @@ namespace MallIS
     {
         readonly ModelDBMall db = new ModelDBMall();
 
-        Employee empl = new Employee();
-
         public FormRegistration()
         {
             InitializeComponent();
@@ -37,7 +35,7 @@ namespace MallIS
                 (maskedTextBoxPhoneNumber.Text == "") ||
                 (textBoxGender.Text == ""))
             {
-                MessageBox.Show("Нужно задать все данные!");
+                MessageBox.Show("Нужно задать все данные");
                 return;
             }
             else if ((textBoxRole.Text.Trim() != "Администратор") && (textBoxRole.Text.Trim() != "Менеджер С") && (textBoxRole.Text.Trim() != "Менеджер А"))
@@ -46,28 +44,55 @@ namespace MallIS
             }
             else
             {
-                Employee empl = new Employee
+                if (PictureBoxUserPhoto.Image == null)
                 {
-                    FIO = textBoxFIO.Text.Trim(),
-                    Login = textBoxLogin.Text.Trim(),
-                    Password = textBoxPassword.Text.Trim(),
-                    Role = textBoxRole.Text.Trim(),
-                    Phone = maskedTextBoxPhoneNumber.Text.Trim(),
-                    Gender = textBoxGender.Text.Trim()
-                };
-                try
-                {
-                    db.Employees.Add(empl);
-                    db.SaveChanges();
+                    MessageBox.Show("Нужно выбрать фотографию");
                 }
-                catch (Exception exc)
+                else
                 {
-                    MessageBox.Show(exc.InnerException.Message);
-                    return;
-                }
-                MessageBox.Show($"Пользователь {textBoxFIO.Text} {textBoxRole.Text} был создан");
-            }
+                    ImageConverter conv = new ImageConverter();
 
+                    // Конвертация изобрежения из PictureBox
+                    byte[] bImg = (byte[])conv.ConvertTo(PictureBoxUserPhoto.Image, typeof(byte[]));
+
+                    Employee empl = new Employee
+                    {
+                        FIO = textBoxFIO.Text.Trim(),
+                        Login = textBoxLogin.Text.Trim(),
+                        Password = textBoxPassword.Text.Trim(),
+                        Role = textBoxRole.Text.Trim(),
+                        Phone = maskedTextBoxPhoneNumber.Text.Trim(),
+                        Gender = textBoxGender.Text.Trim(),
+                        Photo = bImg,
+                    };
+                    try
+                    {
+                        db.Employees.Add(empl);
+                        db.SaveChanges();
+                    }
+                    catch (Exception exc)
+                    {
+                        MessageBox.Show(exc.InnerException.Message);
+                        return;
+                    }
+                    MessageBox.Show($"Пользователь {textBoxFIO.Text} {textBoxRole.Text} был создан");
+                }
+            }
+        }
+
+        private void ButtonSelectUserPhoto_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog
+            {
+                Title = "Выберите фото сотрудника",
+                Filter = "Файлы JPG, GIF, PNG| *.jpg; *.gif; *.png | Все файлы(*.*) | *.*"
+            };
+            DialogResult dialogResult = ofd.ShowDialog();
+            if (dialogResult == DialogResult.OK)
+            {
+                // Отображение выбранного файла в PictureBox
+                PictureBoxUserPhoto.Image = Image.FromFile(ofd.FileName);
+            }
         }
     }
 }

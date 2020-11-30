@@ -40,3 +40,4 @@ C:\Users\Daniel\source\repos\denporcupine\MallIS\obj\Debug\MallIS.csproj.CoreCom
 C:\Users\Daniel\source\repos\denporcupine\MallIS\obj\Debug\MallIS.csproj.CopyComplete
 C:\Users\Daniel\source\repos\denporcupine\MallIS\obj\Debug\MallIS.exe
 C:\Users\Daniel\source\repos\denporcupine\MallIS\obj\Debug\MallIS.pdb
+C:\Users\Daniel\source\repos\denporcupine\MallIS\obj\Debug\MallIS.FormMallInterface.resources

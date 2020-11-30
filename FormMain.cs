@@ -19,9 +19,7 @@ namespace MallIS
             formTitle = "Главное меню";
 
             // Вычисление положения кнопок регистрации и авторизации
-            ButtonRegistration.Left = (this.Width - ButtonRegistration.Width) / 2 - 120;
-            ButtonRegistration.Top = (this.Height - ButtonRegistration.Height) / 2;
-            ButtonAuthorization.Left = (this.Width - ButtonAuthorization.Width) / 2 + 120;
+            ButtonAuthorization.Left = (this.Width - ButtonAuthorization.Width) / 2;
             ButtonAuthorization.Top = (this.Height - ButtonAuthorization.Height) / 2;
         }
 
@@ -35,14 +33,6 @@ namespace MallIS
         {
             FormAuthorization frmAuth = new FormAuthorization();
             frmAuth.Show();
-            Program.PreviousForm = this;
-            this.Hide();
-        }
-
-        private void ButtonRegistration_Click(object sender, EventArgs e)
-        {
-            FormRegistration frmReg = new FormRegistration();
-            frmReg.Show();
             Program.PreviousForm = this;
             this.Hide();
         }

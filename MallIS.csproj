@@ -56,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
+    <Compile Include="FormMallInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMallInterface.Designer.cs">
+      <DependentUpon>FormMallInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormUserAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMallInterface.resx">
+      <DependentUpon>FormMallInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistration.resx">
       <DependentUpon>FormRegistration.cs</DependentUpon>
