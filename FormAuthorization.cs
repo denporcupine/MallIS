@@ -13,7 +13,8 @@ namespace MallIS
     public partial class FormAuthorization : FormBasic
     {
         public static Employee Employee { get; set; }
-        ModelDBMall db = new ModelDBMall();
+
+        readonly ModelDBMall db = new ModelDBMall();
 
         public int failCounter = 1;
         public bool showCaptcha = false;

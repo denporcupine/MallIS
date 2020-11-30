@@ -6,7 +6,6 @@ namespace MallIS
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("rent")]
     public partial class Rent
     {
         [Key]

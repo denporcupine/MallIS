@@ -15,7 +15,7 @@ namespace MallIS
 
         [Required]
         [StringLength(100)]
-        public string Fio { get; set; }
+        public string FIO { get; set; }
 
         [Required]
         [StringLength(100)]
@@ -37,11 +37,11 @@ namespace MallIS
         public string Gender { get; set; }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Employee_id { get; set; }
 
         public byte[] Photo { get; set; }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Rent> Rents { get; set; }
     }
 }

@@ -117,4 +117,300 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabelForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 29</value>
+  </data>
+  <data name="LabelForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="LabelForm.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelForm.Name" xml:space="preserve">
+    <value>LabelForm</value>
+  </data>
+  <data name="&gt;&gt;LabelForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelForm.Parent" xml:space="preserve">
+    <value>PanelHeader</value>
+  </data>
+  <data name="&gt;&gt;LabelForm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonBack.Name" xml:space="preserve">
+    <value>ButtonBack</value>
+  </data>
+  <data name="&gt;&gt;ButtonBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBack.Parent" xml:space="preserve">
+    <value>PanelFooter</value>
+  </data>
+  <data name="&gt;&gt;ButtonBack.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.Name" xml:space="preserve">
+    <value>ButtonExit</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.Parent" xml:space="preserve">
+    <value>PanelFooter</value>
+  </data>
+  <data name="&gt;&gt;ButtonExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mallidDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Mall_id</value>
+  </data>
+  <data name="mallnameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Mall_name</value>
+  </data>
+  <data name="statusDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="pavilionsquantityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Pavilions_quantity</value>
+  </data>
+  <data name="cityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="priceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="addedvalueratioDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Added_value_ratio</value>
+  </data>
+  <data name="floorsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Floors</value>
+  </data>
+  <data name="photoDataGridViewImageColumn.HeaderText" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="pavilionsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Pavilions</value>
+  </data>
+  <data name="rentsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Rents</value>
+  </data>
+  <metadata name="mallBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="dataGridViewMalls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 87</value>
+  </data>
+  <data name="dataGridViewMalls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 271</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewMalls.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewMalls.Name" xml:space="preserve">
+    <value>dataGridViewMalls</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewMalls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewMalls.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewMalls.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxFilterStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 417</value>
+  </data>
+  <data name="textBoxFilterStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="textBoxFilterStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterStatus.Name" xml:space="preserve">
+    <value>textBoxFilterStatus</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxFilterCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 446</value>
+  </data>
+  <data name="textBoxFilterCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="textBoxFilterCity.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterCity.Name" xml:space="preserve">
+    <value>textBoxFilterCity</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilterCity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 419</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 18</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Фильтр по статусу</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 446</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 18</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Фильтр по городу</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 561</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FormUserManagerC</value>
+  </data>
+  <data name="&gt;&gt;mallidDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>mallidDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mallidDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mallnameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>mallnameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mallnameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>statusDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;statusDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pavilionsquantityDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>pavilionsquantityDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;pavilionsquantityDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cityDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>cityDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;cityDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;priceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>priceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;priceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addedvalueratioDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>addedvalueratioDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;addedvalueratioDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floorsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>floorsDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;floorsDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;photoDataGridViewImageColumn.Name" xml:space="preserve">
+    <value>photoDataGridViewImageColumn</value>
+  </data>
+  <data name="&gt;&gt;photoDataGridViewImageColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pavilionsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>pavilionsDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;pavilionsDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rentsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>rentsDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;rentsDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mallBindingSource.Name" xml:space="preserve">
+    <value>mallBindingSource</value>
+  </data>
+  <data name="&gt;&gt;mallBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormUserManagerC</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MallIS.FormBasic, MallIS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

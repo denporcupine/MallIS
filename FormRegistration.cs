@@ -12,7 +12,9 @@ namespace MallIS
 {
     public partial class FormRegistration : FormBasic
     {
-        ModelDBMall db = new ModelDBMall();
+        readonly ModelDBMall db = new ModelDBMall();
+
+        Employee empl = new Employee();
 
         public FormRegistration()
         {
@@ -44,18 +46,18 @@ namespace MallIS
             }
             else
             {
-
-                Employee empl = new Employee();
-                empl.Fio = textBoxFIO.Text;
-                empl.Login = textBoxLogin.Text;
-                empl.Password = textBoxPassword.Text;
-                empl.Role = textBoxRole.Text.Trim();
-                empl.Phone = maskedTextBoxPhoneNumber.Text.Trim();
-                empl.Gender = textBoxGender.Text;
-                db.Employees.Add(empl);
-
+                Employee empl = new Employee
+                {
+                    FIO = textBoxFIO.Text.Trim(),
+                    Login = textBoxLogin.Text.Trim(),
+                    Password = textBoxPassword.Text.Trim(),
+                    Role = textBoxRole.Text.Trim(),
+                    Phone = maskedTextBoxPhoneNumber.Text.Trim(),
+                    Gender = textBoxGender.Text.Trim()
+                };
                 try
                 {
+                    db.Employees.Add(empl);
                     db.SaveChanges();
                 }
                 catch (Exception exc)

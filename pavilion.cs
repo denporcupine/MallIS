@@ -8,6 +8,7 @@ namespace MallIS
 
     public partial class Pavilion
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Pavilion()
         {
             Rents = new HashSet<Rent>();
@@ -37,6 +38,7 @@ namespace MallIS
 
         public virtual Mall Mall { get; set; }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Rent> Rents { get; set; }
     }
 }
